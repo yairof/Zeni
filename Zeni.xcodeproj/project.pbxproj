@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB50C50E218B96C8000120A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50C50D218B96C8000120A8 /* AppDelegate.swift */; };
+		FB50C510218B96C8000120A8 /* ZeniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50C50F218B96C8000120A8 /* ZeniVC.swift */; };
+		FB50C513218B96C8000120A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB50C511218B96C8000120A8 /* Main.storyboard */; };
+		FB50C515218B96CB000120A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB50C514218B96CB000120A8 /* Assets.xcassets */; };
+		FB50C518218B96CB000120A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB50C516218B96CB000120A8 /* LaunchScreen.storyboard */; };
+		FB50C523218B96CB000120A8 /* ZeniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50C522218B96CB000120A8 /* ZeniTests.swift */; };
+		FB50C531218B986D000120A8 /* ZeniIncome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50C530218B986D000120A8 /* ZeniIncome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB50C51F218B96CB000120A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB50C502218B96C8000120A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB50C509218B96C8000120A8;
+			remoteInfo = Zeni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB50C50A218B96C8000120A8 /* Zeni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB50C50D218B96C8000120A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB50C50F218B96C8000120A8 /* ZeniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeniVC.swift; sourceTree = "<group>"; };
+		FB50C512218B96C8000120A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB50C514218B96CB000120A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB50C517218B96CB000120A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB50C519218B96CB000120A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB50C51E218B96CB000120A8 /* ZeniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB50C522218B96CB000120A8 /* ZeniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeniTests.swift; sourceTree = "<group>"; };
+		FB50C524218B96CB000120A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB50C530218B986D000120A8 /* ZeniIncome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeniIncome.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB50C507218B96C8000120A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB50C51B218B96CB000120A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB50C501218B96C8000120A8 = {
+			isa = PBXGroup;
+			children = (
+				FB50C50C218B96C8000120A8 /* Zeni */,
+				FB50C521218B96CB000120A8 /* ZeniTests */,
+				FB50C50B218B96C8000120A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB50C50B218B96C8000120A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB50C50A218B96C8000120A8 /* Zeni.app */,
+				FB50C51E218B96CB000120A8 /* ZeniTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB50C50C218B96C8000120A8 /* Zeni */ = {
+			isa = PBXGroup;
+			children = (
+				FB50C52F218B9734000120A8 /* Controller */,
+				FB50C52E218B9728000120A8 /* Views */,
+				FB50C52D218B9723000120A8 /* Model */,
+				FB50C50D218B96C8000120A8 /* AppDelegate.swift */,
+				FB50C511218B96C8000120A8 /* Main.storyboard */,
+				FB50C514218B96CB000120A8 /* Assets.xcassets */,
+				FB50C516218B96CB000120A8 /* LaunchScreen.storyboard */,
+				FB50C519218B96CB000120A8 /* Info.plist */,
+			);
+			path = Zeni;
+			sourceTree = "<group>";
+		};
+		FB50C521218B96CB000120A8 /* ZeniTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB50C522218B96CB000120A8 /* ZeniTests.swift */,
+				FB50C524218B96CB000120A8 /* Info.plist */,
+			);
+			path = ZeniTests;
+			sourceTree = "<group>";
+		};
+		FB50C52D218B9723000120A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB50C530218B986D000120A8 /* ZeniIncome.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB50C52E218B9728000120A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB50C52F218B9734000120A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB50C50F218B96C8000120A8 /* ZeniVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB50C509218B96C8000120A8 /* Zeni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB50C527218B96CB000120A8 /* Build configuration list for PBXNativeTarget "Zeni" */;
+			buildPhases = (
+				FB50C506218B96C8000120A8 /* Sources */,
+				FB50C507218B96C8000120A8 /* Frameworks */,
+				FB50C508218B96C8000120A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zeni;
+			productName = Zeni;
+			productReference = FB50C50A218B96C8000120A8 /* Zeni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB50C51D218B96CB000120A8 /* ZeniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB50C52A218B96CB000120A8 /* Build configuration list for PBXNativeTarget "ZeniTests" */;
+			buildPhases = (
+				FB50C51A218B96CB000120A8 /* Sources */,
+				FB50C51B218B96CB000120A8 /* Frameworks */,
+				FB50C51C218B96CB000120A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB50C520218B96CB000120A8 /* PBXTargetDependency */,
+			);
+			name = ZeniTests;
+			productName = ZeniTests;
+			productReference = FB50C51E218B96CB000120A8 /* ZeniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB50C502218B96C8000120A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Yairo Fernandez";
+				TargetAttributes = {
+					FB50C509218B96C8000120A8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FB50C51D218B96CB000120A8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FB50C509218B96C8000120A8;
+					};
+				};
+			};
+			buildConfigurationList = FB50C505218B96C8000120A8 /* Build configuration list for PBXProject "Zeni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB50C501218B96C8000120A8;
+			productRefGroup = FB50C50B218B96C8000120A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB50C509218B96C8000120A8 /* Zeni */,
+				FB50C51D218B96CB000120A8 /* ZeniTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB50C508218B96C8000120A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB50C518218B96CB000120A8 /* LaunchScreen.storyboard in Resources */,
+				FB50C515218B96CB000120A8 /* Assets.xcassets in Resources */,
+				FB50C513218B96C8000120A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB50C51C218B96CB000120A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB50C506218B96C8000120A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB50C531218B986D000120A8 /* ZeniIncome.swift in Sources */,
+				FB50C510218B96C8000120A8 /* ZeniVC.swift in Sources */,
+				FB50C50E218B96C8000120A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB50C51A218B96CB000120A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB50C523218B96CB000120A8 /* ZeniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB50C520218B96CB000120A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB50C509218B96C8000120A8 /* Zeni */;
+			targetProxy = FB50C51F218B96CB000120A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB50C511218B96C8000120A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB50C512218B96C8000120A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB50C516218B96CB000120A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB50C517218B96CB000120A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB50C525218B96CB000120A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB50C526218B96CB000120A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB50C528218B96CB000120A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zeni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YairologoProductions.Zeni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB50C529218B96CB000120A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zeni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YairologoProductions.Zeni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB50C52B218B96CB000120A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZeniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YairologoProductions.ZeniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeni.app/Zeni";
+			};
+			name = Debug;
+		};
+		FB50C52C218B96CB000120A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZeniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YairologoProductions.ZeniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeni.app/Zeni";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB50C505218B96C8000120A8 /* Build configuration list for PBXProject "Zeni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB50C525218B96CB000120A8 /* Debug */,
+				FB50C526218B96CB000120A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB50C527218B96CB000120A8 /* Build configuration list for PBXNativeTarget "Zeni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB50C528218B96CB000120A8 /* Debug */,
+				FB50C529218B96CB000120A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB50C52A218B96CB000120A8 /* Build configuration list for PBXNativeTarget "ZeniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB50C52B218B96CB000120A8 /* Debug */,
+				FB50C52C218B96CB000120A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB50C502218B96C8000120A8 /* Project object */;
+}
